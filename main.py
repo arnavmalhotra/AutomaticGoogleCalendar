@@ -1,7 +1,7 @@
 import os
 import google.generativeai as genai
 
-genai.configure(api_key='AIzaSyAisUoMJ1iJEZEd0mpr8AwLIz9H_o0Cvdw')
+genai.configure(api_key='API_Key')
 # Upload the file and print a confirmation.
 sample_file = genai.upload_file(path="au-t-1634079864-australian-editable-sample-timetable_ver_1.jpg",
                             display_name="Time Table")
